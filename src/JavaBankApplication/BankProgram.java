@@ -1,7 +1,6 @@
 package JavaBankApplication;
 
 // ************************************************************************
-// BankProgram.java	 Template created on 15.9.2016
 // - The program class for the BankApplication exercise
 // ************************************************************************
 import java.util.Scanner;
@@ -16,7 +15,6 @@ public class BankProgram {
 
 	private static ArrayList<Account> accountList = new ArrayList<Account>();
 
-	// *** DO NOT change anything in the main method ***
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int choice = -1;
@@ -59,7 +57,6 @@ public class BankProgram {
 		System.out.print("Enter your choice: ");
 	}
 
-	// *** NB! Edit only the methods below. DO NOT add any other methods! ***
 
 	private static void listAccounts() {
 		DecimalFormat twoDecimals = new DecimalFormat("0.00");
